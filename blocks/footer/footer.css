@@ -1,3 +1,11 @@
 .footer {
+    background: #FECDA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 550px;
+    font-size: 50px;
+    font-weight: 700;
 
 }
