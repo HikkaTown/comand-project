@@ -1,0 +1,24 @@
+.header__content {
+  max-width: 550px;
+  margin-top: 124px;
+}
+
+@media screen and (max-width: 1060px) {
+  .header__content {
+    max-width: 410px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__content {
+    max-width: 390px;
+    margin-top: 85px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__content {
+    max-width: 550px;
+    margin-top: 0;
+  }
+}
