@@ -5,19 +5,18 @@
 .interests__article {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 77px;
+  /* grid-column-gap: 77px; */
 }
 
 .interests__illustration {
   max-height: 574px;
   width: 100%;
   object-fit: cover;
-object-position: center center;
+  object-position: center center;
 }
 
 .interests__content {
-  margin-top: 71px;
-  margin-bottom: 71px;
+  margin: 71px 0 71px 77px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
