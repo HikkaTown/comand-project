@@ -14,7 +14,7 @@
 @import url('../blocks/header/__section-title/header__section-title.css');
 @import url('../blocks/header/__illustration/header__illustration.css');
 /* Interests section */
-
+@import url('../blocks/interests/interests.css');
 /* Quotes section */
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__title-wrapper/quotes__titles-wrapper.css);
