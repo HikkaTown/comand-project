@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Куда я поеду?</title>
 </head>
 <body class="page">
@@ -23,7 +24,7 @@
       </article>
     </section>
     <section class="quotes">
-      <div class="quote__titles-wrapper">
+      <div class="quotes__titles-wrapper">
         <p class="quotes__subtitle">люди</p>
         <h2 class="quotes__title">Что говорят и говорили люди о путешествиях</h2>
       </div>
@@ -47,21 +48,22 @@
       </div>
     </section>
     <secttion class="form">
-      <form action="" class="section__form">
-        <input type="text" placeholder="Я поеду ...">
-        <textarea name="" id="" cols="30" rows="5" placeholder="Потому что я ...">
-
-        </textarea>
+      <form action="form__item">
+        <h2 class="form__title">Так куда же я поеду?</h2>
+        <input class="form__destination" type="text" placeholder="Я поеду ...">
+        <textarea class="form__reason" name="reason" id="" cols="30" rows="5" placeholder="Потому что я ..."></textarea>
+        <button class="form__button" type="submit">Поехали уже куда нибудь!</button>
       </form>
-      <div class="section__image">
-
+      <div class="image image_place_form">
       </div>
     </secttion>
     <section class="video">
-
+      <p class="video__title">А пока что - всё ещё сидим дома!</p>
+      <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/JGNiMutYBm4"
+        frameborder="0" allowfullscreen>
     </section>
     <footer class="footer">
-
+      <p class="footer__copyright">&copy; 2021</p>
     </footer>
   </main>
 </body>
