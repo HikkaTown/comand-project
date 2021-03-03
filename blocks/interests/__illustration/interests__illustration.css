@@ -1,0 +1,14 @@
+.interests__illustration {
+  height: 100vh;
+  max-height: 574px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (max-width: 600px) {
+  .interests__illustration {
+    grid-area: image;
+    max-height: 440px;
+  }
+}

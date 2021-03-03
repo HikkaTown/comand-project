@@ -1,47 +1,11 @@
 .interests {
-
-}
-
-.interests__article {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 77px;
+  grid-auto-rows: fit-content(574px);
+  background-color: #F2F2F2;
 }
 
-.interests__illustration {
-  max-height: 574px;
-  width: 100%;
-  object-fit: cover;
-object-position: center center;
-}
-
-.interests__content {
-  margin-top: 71px;
-  margin-bottom: 71px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 471px;
-}
-
-.interests__name-target {
-  font-size: 35px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-.interests__text {
-}
-
-.interests__paragraph {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0 0 32px 0;
-  padding: 0;
-}
-
-.interests__paragraph:last-of-type {
-  margin-bottom: 0;
+@media screen and (max-width: 600px) {
+  .interests {
+    grid-row-gap: 35px;
+  }
 }

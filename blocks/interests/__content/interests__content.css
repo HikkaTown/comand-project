@@ -1,0 +1,27 @@
+.interests__content {
+  margin: 71px 30px 71px 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 471px;
+}
+
+@media screen and (max-width: 1024px) {
+  .interests__content {
+    margin-left: 44px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .interests__content {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .interests__content {
+    margin: 25px 12px;
+    grid-area: content;
+  }
+}
