@@ -1,6 +1,18 @@
 .header {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: red;
-    height: 50px;
+    max-width: 1230px;
+    margin: 56px auto 141px;
+    width: calc(100% - 84px);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 50px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: calc(100% - 24px);
+    margin: 35px auto 90px;
+  }
 }
