@@ -1,5 +1,3 @@
-.form__item {
-  width: 50%;
-  display: flex;
-
+.form__item.css {
+  width: 382px;
 }
