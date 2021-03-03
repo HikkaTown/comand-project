@@ -17,12 +17,13 @@
 @import url('../blocks/interests/interests.css');
 /* Quotes section */
 @import url(../blocks/quotes/quotes.css);
-@import url(../blocks/quotes/__title-wrapper/quotes__titles-wrapper.css);
+@import url(../blocks/quotes/__title-container/quotes__titles-container.css);
 @import url(../blocks/quotes/__title/quotes__title.css);
 @import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
-@import url(../blocks/quote-card/quote-card.css);
-@import url(../blocks/quote-card/__author/quote-card__author.css);
-@import url(../blocks/quote-card/__text/quote-card__text.css);
+@import url(../blocks/quotes/__cards/quotes__cards.css);
+@import url(../blocks/quotes/__card/quotes__card.css);
+@import url(../blocks/quotes/__author/quotes__author.css);
+@import url(../blocks/quotes/__text/quotes__text.css);
 /* Form section */
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__item/form__item.css);
