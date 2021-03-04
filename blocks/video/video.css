@@ -5,3 +5,12 @@
   max-height: 300px;
 
 }
+@media screen and (max-width: 320px) {
+  .video {
+    position: relative;
+    padding-bottom: 56.26%;
+    height: 0;
+    max-height: 300px;
+  }
+}
+

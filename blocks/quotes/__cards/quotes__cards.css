@@ -17,8 +17,14 @@
 
 @media screen and (max-width: 768px) {
   .quotes__cards {
-    margin: auto;
     grid-column-gap: 30px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .quotes__cards {
+     grid-column-gap: 0;
 
   }
 }
