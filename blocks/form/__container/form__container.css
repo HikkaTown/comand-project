@@ -13,8 +13,9 @@
   .form__container{
     justify-items: center;
     margin: auto;
-    padding: 0;
-    width: calc(100%- 50px);
+    padding: 0 25px;
+    max-width: 300px;
+    /* width: calc(100%- 50px); */
   }
 }
 
