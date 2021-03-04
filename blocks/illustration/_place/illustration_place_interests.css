@@ -1,4 +1,4 @@
-.interests__illustration {
+.illustration_place_interests {
   height: 100vh;
   max-height: 574px;
   width: 100%;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .interests__illustration {
+  .illustration_place_interests {
     grid-area: image;
     max-height: 440px;
   }
