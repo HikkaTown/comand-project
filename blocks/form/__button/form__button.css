@@ -2,4 +2,29 @@
   color: #fff;
   background: #000;
   border: 1px solid white;
+  max-width: 215px;
+  height: 35px;
+  align-self: flex-end;
+  transition: background, color, border .6s;
 }
+
+.form__button:hover {
+  background: #FECDA7;
+  color: #000;
+  border: 1px solid #FECDA7;
+}
+
+.form__button:active {
+  outline: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .form__button {
+    margin: auto;
+    align-self: center;
+    max-width: 390px;
+    margin-bottom: 20px;
+  }
+}
+

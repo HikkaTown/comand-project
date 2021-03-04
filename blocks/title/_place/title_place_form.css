@@ -1,0 +1,13 @@
+.title_place_form {
+  max-width: 270px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 600px) {
+  .title_place_form {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+

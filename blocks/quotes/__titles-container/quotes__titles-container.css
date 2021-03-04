@@ -3,3 +3,21 @@
   margin: 0 0 135px;
 
 }
+
+@media screen and (max-width: 1074px) {
+  .quotes__titles-container  {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .quotes__titles-container  {
+    margin: auto;
+    text-align: center;
+    margin-top: 37px;
+    width: calc(100% - 50px);
+  }
+}
+
+
