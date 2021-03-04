@@ -1,0 +1,12 @@
+.quotes__card {
+  max-width: 248px;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 1074px) {
+  .quotes__card {
+    margin-bottom: 15px;
+  }
+}
+

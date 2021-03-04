@@ -1,0 +1,11 @@
+.interests {
+  display: grid;
+  grid-auto-rows: fit-content(574px);
+  background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 600px) {
+  .interests {
+    grid-row-gap: 35px;
+  }
+}

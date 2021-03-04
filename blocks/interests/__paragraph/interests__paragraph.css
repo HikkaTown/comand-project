@@ -1,0 +1,11 @@
+.interests__paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+.interests__paragraph:last-of-type {
+  margin-bottom: 0;
+}
