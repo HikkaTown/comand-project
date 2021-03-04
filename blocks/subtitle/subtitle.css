@@ -1,4 +1,4 @@
-.quotes__subtitle {
+.subtitle {
   color: #FECDA7;
   margin: 0 0 40px 0;
   text-transform: uppercase;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .quotes__subtitle {
+  .subtitle{
     margin-bottom: 20px;
   }
 }

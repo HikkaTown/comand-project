@@ -1,6 +1,21 @@
 .form__container {
+  margin: 0 auto 71px;
+  margin-left: 72px;
+
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  justify-content: center;
+  padding-right: 25px;
+
 
 }
+
+@media screen and (max-width: 768px) {
+  .form__container{
+    justify-items: center;
+    margin: auto;
+    padding: 0 25px;
+    width: calc(100%- 50px);
+  }
+}
+

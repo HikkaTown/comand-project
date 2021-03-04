@@ -2,11 +2,30 @@
   max-width: 248px;
   text-align: left;
   margin: 0;
+  /* margin-right: 70px; */
+}
+
+.quotes__card:last-of-type {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 1074px) {
   .quotes__card {
-    margin-bottom: 15px;
+      margin-top: 20px;
+  }
+      .quotes__card:nth-of-type(2n){
+  margin-right: 0;
+}
   }
 }
+
+@media screen and (max-width: 768px) {
+  .quotes__card {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+
+}
+
 

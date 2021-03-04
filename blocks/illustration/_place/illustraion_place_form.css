@@ -1,0 +1,31 @@
+.illustraion_place_form {
+  background-image: url('../../../images/airport-schedule.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-height: 574px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  object-fit: cover;
+
+}
+
+@media screen and (max-width: 768px) {
+  .illustraion_place_form {
+    max-height: 400px;
+
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .illustraion_place_form {
+    display: none;
+
+  }
+}
+
+
+
+
+

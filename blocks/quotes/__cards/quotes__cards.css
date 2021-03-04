@@ -9,7 +9,16 @@
 
 @media screen and (max-width: 1074px) {
   .quotes__cards {
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .quotes__cards {
+    margin: auto;
+    grid-column-gap: 30px;
 
   }
 }

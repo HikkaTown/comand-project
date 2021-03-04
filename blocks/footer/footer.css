@@ -4,8 +4,16 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    min-height: 550px;
+    padding: 20% 0;
+    max-height: 574px;
     font-size: 50px;
     font-weight: 700;
 
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+
+  }
 }

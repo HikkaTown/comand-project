@@ -1,17 +1,24 @@
 .quotes {
   max-width: 1230px;
-  margin: 0 auto;
-  padding: 148px 0 159px;
+  max-height: 574px;
+  margin: 148px auto 159px;
   width: calc(100% - 84px);
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  display: grid;
 }
 
 @media screen and (max-width: 1074px) {
   .quotes {
-    align-items: center;
-    /* padding-bottom: 20%;
-    надо подумать что делать с отступами при адаптиве*/
+    margin-top: 74px;
+    margin-bottom: 84px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .quotes {
+    align-items: center;
+    margin-top: 37px;
+    margin-bottom: 42px;
+    width: calc(100% - 50px);
+  }
+}
+

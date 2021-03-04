@@ -1,0 +1,10 @@
+.title_place_video {
+  margin: 0;
+  z-index: 1;
+  max-width: 680px;
+  margin-left: 85px;
+  position: relative;
+  color: #fff;
+  top: 150px;
+
+}
