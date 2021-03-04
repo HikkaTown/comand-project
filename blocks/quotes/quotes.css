@@ -1,6 +1,5 @@
 .quotes {
   max-width: 1230px;
-  max-height: 574px;
   margin: 148px auto 159px;
   width: calc(100% - 84px);
   display: grid;

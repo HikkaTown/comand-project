@@ -1,26 +1,25 @@
 .quotes__cards {
-  display: flex;
+  /* display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  */
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 1074px) {
-  .quotes__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 
 @media screen and (max-width: 768px) {
   .quotes__cards {
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
 
   }
 }
+
 
 @media screen and (max-width: 320px) {
   .quotes__cards {
