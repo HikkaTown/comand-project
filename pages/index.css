@@ -4,24 +4,24 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);
 /* Header section */
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/__row/header__row.css');
-@import url('../blocks/header/__menu-links/header__menu-links.css');
-@import url('../blocks/header/__menu-item/header__menu-item.css');
-@import url('../blocks/header/__menu-link/header__menu-link.css');
-@import url('../blocks/header/__report-btn/header__report-btn.css');
-@import url('../blocks/header/__content-container/header__content-container.css');
-@import url('../blocks/header/__content/header__content.css');
-@import url('../blocks/header/__section-name/header__section-name.css');
-@import url('../blocks/header/__section-title/header__section-title.css');
-@import url('../blocks/header/__illustration/header__illustration.css');
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__row/header__row.css);
+@import url(../blocks/header/__menu-links/header__menu-links.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__report-btn/header__report-btn.css);
+@import url(../blocks/header/__content-container/header__content-container.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__section-name/header__section-name.css);
+@import url(../blocks/header/__section-title/header__section-title.css);
+@import url(../blocks/header/__illustration/header__illustration.css);
 /* Interests section */
-@import url('../blocks/interests/interests.css');
-@import url('../blocks/interests/__article/interests__article.css');
-@import url('../blocks/interests/__illustration/interests__illustration.css');
-@import url('../blocks/interests/__content/interests__content.css');
-@import url('../blocks/title/_place/title_place_interests.css');
-@import url('../blocks/interests/__paragraph/interests__paragraph.css');
+@import url(../blocks/interests/interests.css);
+@import url(../blocks/interests/__article/interests__article.css);
+@import url(../blocks/illustration/_place/illustration_place_interests.css);
+@import url(../blocks/interests/__content/interests__content.css);
+@import url(../blocks/title/_place/title_place_interests.css);
+@import url(../blocks/interests/__paragraph/interests__paragraph.css);
 /* Quotes section */
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__titles-container/quotes__titles-container.css);
