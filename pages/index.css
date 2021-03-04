@@ -14,7 +14,12 @@
 @import url('../blocks/header/__section-title/header__section-title.css');
 @import url('../blocks/header/__illustration/header__illustration.css');
 /* Interests section */
-
+@import url('../blocks/interests/interests.css');
+@import url('../blocks/interests/__article/interests__article.css');
+@import url('../blocks/interests/__illustration/interests__illustration.css');
+@import url('../blocks/interests/__content/interests__content.css');
+@import url('../blocks/interests/__name-target/interests__name-target.css');
+@import url('../blocks/interests/__paragraph/interests__paragraph.css');
 /* Quotes section */
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__titles-container/quotes__titles-container.css);
