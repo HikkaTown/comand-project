@@ -5,8 +5,15 @@
   background-color: #F2F2F2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .interests {
-    grid-row-gap: 35px;
+    grid-row-gap: 0;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .interests {
+    grid-row-gap: 0;
+  }
+}
+

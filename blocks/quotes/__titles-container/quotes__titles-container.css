@@ -1,6 +1,6 @@
 .quotes__titles-container {
   max-width: 550px;
-  margin: 0 0 135px;
+  margin: 0 0 95px;
 
 }
 
@@ -15,7 +15,6 @@
   .quotes__titles-container  {
     margin: auto;
     text-align: center;
-    margin-top: 37px;
     width: calc(100% - 50px);
   }
 }

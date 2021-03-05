@@ -2,7 +2,9 @@
   height: 100vh;
   max-height: 574px;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center center;
   object-position: center center;
 }
 

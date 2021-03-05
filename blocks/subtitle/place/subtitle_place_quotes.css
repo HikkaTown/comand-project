@@ -1,0 +1,9 @@
+.subtitle_place_quotes {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .subtitle_place_quotes{
+    margin-top: 50px;
+  }
+}

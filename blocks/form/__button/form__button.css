@@ -4,7 +4,10 @@
   border: 1px solid white;
   max-width: 215px;
   height: 35px;
+  -ms-flex-item-align: end;
   align-self: flex-end;
+  -webkit-transition: background, color, border .6s;
+  -o-transition: background, color, border .6s;
   transition: background, color, border .6s;
 }
 
@@ -22,9 +25,10 @@
 @media screen and (max-width: 768px) {
   .form__button {
     margin: auto;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     max-width: 390px;
     margin-bottom: 20px;
   }
 }
-

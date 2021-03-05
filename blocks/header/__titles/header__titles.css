@@ -1,23 +1,23 @@
-.header__content {
-  max-width: 550px;
-  margin-top: 124px;
+.header__titles {
+  max-width: 560px;
+  margin-top: 115px;
 }
 
 @media screen and (max-width: 1060px) {
-  .header__content {
+  .header__titles {
     max-width: 410px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .header__content {
+  .header__titles {
     max-width: 390px;
     margin-top: 70px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__content {
+  .header__titles {
     max-width: 550px;
     margin-top: 0;
   }

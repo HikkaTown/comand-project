@@ -1,9 +1,9 @@
-.title_place_header {
-  font-size: 35px;
-  margin: 0;
+.subtitle_place_header {
+
 }
+
 @media screen and (max-width: 768px) {
-  .title_place_header {
+  .subtitle_place_header {
     margin: auto;
     text-align: center;
   }

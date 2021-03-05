@@ -1,7 +1,8 @@
 .quotes {
   max-width: 1230px;
-  margin: 148px auto 159px;
+  margin: 138px auto 159px;
   width: calc(100% - 84px);
+  display: -ms-grid;
   display: grid;
 }
 
@@ -14,6 +15,8 @@
 
 @media screen and (max-width: 768px) {
   .quotes {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 37px;
     margin-bottom: 42px;
@@ -23,11 +26,11 @@
 
 @media screen and (max-width: 320px) {
   .quotes {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 0;
     margin-bottom: 42px;
     width: calc(100% - 50px);
   }
 }
-
-

@@ -1,10 +1,13 @@
 .interests__article {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (max-width: 600px) {
   .interests__article {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "image"
       "content";
