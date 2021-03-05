@@ -6,11 +6,12 @@
   -ms-flex-align: center;
   justify-content: space-between;
   align-items: center;
+  grid-auto-flow: row wrap;
+
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
   .header__navigation {
-    flex
-    font-size: 10px;
+
   }
 }

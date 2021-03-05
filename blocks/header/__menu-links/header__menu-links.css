@@ -10,11 +10,17 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width: 277px;
+  max-width: 280px;
 }
+
+.header__menu-links:last-child {
+  justify-self: flex-end;
+}
+
 
 @media screen and (max-width: 768px) {
   .header__menu-links {
    width: 40%;
   }
 }
+
