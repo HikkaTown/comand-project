@@ -6,3 +6,8 @@
   margin: 0 0 32px;
 }
 
+@media screen and (max-width: 768px) {
+  .quotes__author {
+    margin-bottom: 16px;
+  }
+}

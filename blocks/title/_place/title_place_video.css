@@ -11,8 +11,6 @@
 
 @media screen and (max-width: 768px) {
   .title_place_video {
-    text-align: center;
-    top: 50px;
-    bottom: 50%;
+    display: none;
   }
 }

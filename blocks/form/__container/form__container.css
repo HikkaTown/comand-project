@@ -1,10 +1,11 @@
 .form__container {
-  margin: 0 auto 71px;
+  margin: 0 auto;
   margin-left: 72px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 25px;
+  padding: 25% 25px 25%;
 
 
 }
@@ -13,9 +14,8 @@
   .form__container{
     justify-items: center;
     margin: auto;
-    padding: 0 25px;
+    padding: 25px 0;
     max-width: 300px;
-    /* width: calc(100%- 50px); */
   }
 }
 

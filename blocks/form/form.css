@@ -3,16 +3,22 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: fit-content(574px);
+  grid-template-columns: repeat(2, minmax(max-content, 1fr));
+  /* grid-auto-rows: fit-content(663px); */
   grid-gap: 0;
-  max-height: 574px;
 }
 
 
 @media screen and (max-width: 768px) {
   .form {
-    grid-template-columns: minmax(100px, 1fr);
+    margin: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
+
 
