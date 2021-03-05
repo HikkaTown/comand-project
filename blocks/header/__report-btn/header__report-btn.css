@@ -18,7 +18,7 @@
 @media screen and (max-width: 425px) {
   .header__report-btn {
     text-align: center;
-    display: block;
+    display: inline-block;
     margin-top: 30px;
   }
 }

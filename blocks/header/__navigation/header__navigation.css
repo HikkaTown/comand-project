@@ -9,5 +9,6 @@
 @media screen and (max-width: 425px) {
   .header__navigation {
     display: block;
+    text-align: center;
   }
 }
