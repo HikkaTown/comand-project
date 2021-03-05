@@ -1,10 +1,8 @@
 .quotes__cards {
-  /* display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  */
   list-style: none;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 50px;
   margin: 0;
@@ -15,10 +13,19 @@
 @media screen and (max-width: 768px) {
   .quotes__cards {
     grid-column-gap: 20px;
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: repeat(2, 1fr);
 
   }
 }
+
+@media screen and (max-width: 425px) {
+  .quotes__cards {
+    grid-template-columns: 1fr;
+
+  }
+}
+
 
 
 @media screen and (max-width: 320px) {

@@ -1,11 +1,32 @@
 .footer {
     background: #FECDA7;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
-    max-height: 663px;
-    font-size: 50px;
+    min-height: 500px;
+    font-size: 40px;
     font-weight: 700;
+    padding: auto;
 
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    min-height: 300px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer {
+    min-height: 200px;
+  }
+}
+

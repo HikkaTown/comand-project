@@ -1,5 +1,7 @@
 .title_place_interests {
   font-size: 35px;
+  margin: 0;
+  letter-spacing: .03em;
 }
 
 @media screen and (max-width: 600px) {

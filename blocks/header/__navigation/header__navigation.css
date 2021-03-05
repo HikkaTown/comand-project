@@ -1,0 +1,16 @@
+.header__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 424px) {
+  .header__navigation {
+    flex
+    font-size: 10px;
+  }
+}

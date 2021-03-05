@@ -14,15 +14,4 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .quotes__card {
-
-
-  }
-  .quotes__card:nth-of-type(2n) {
-
-  }
-
-}
-
 
