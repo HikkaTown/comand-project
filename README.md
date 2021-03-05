@@ -6,6 +6,8 @@
 Все остальное второстепенно.
 Реализован в паре: [HikkaTown](https://github.com/HikkaTown) и [MitkaS7](https://github.com/Mitkas7)
 
+[Ссылка](https://hikkatown.github.io/comand-project) на опубликованный проект:
+
 **Технологии**
 
 * HTML 5 & CSS3
